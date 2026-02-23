@@ -1,0 +1,87 @@
+# Testimonios JFrivas - Archivo de configuración de Git
+# Ver https://help.github.com/articles/ignoring-files/ para más información sobre ignorar archivos.
+
+# Dependencias de npm/yarn
+/node_modules
+/.pnp
+.pnp.js
+
+# Pruebas
+/coverage
+
+# Build/Producción
+/build
+/dist
+
+# Variables de entorno (credenciales, API keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Imágenes temporales / editadas (opcional)
+*.tmp
+*.bak
+*.psd
+
+# Datos de clientes sensibles (si los hay)
+.credentials/
+.secrets/
+*-credentials.json
+
+# Cache
+.cache/
+.eslintcache
+
+# Archivos de respaldo
+*.backup
+*.bkp
+ # TypeScript
+*.tsbuildinfo
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity

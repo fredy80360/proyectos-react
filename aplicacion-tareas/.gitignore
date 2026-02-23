@@ -1,0 +1,76 @@
+
+# Aplicación de Tareas - Archivo de configuración de Git
+# Ver https://help.github.com/articles/ignoring-files/ para más información sobre ignorar archivos.
+
+# Dependencias de npm/yarn
+/node_modules
+/.pnp
+.pnp.js
+
+# Pruebas
+/coverage
+
+# Build/Producción
+/build
+/dist
+
+# Variables de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Datos locales de tareas (opcional - para desarrollo local)
+.local-tasks.json
+tasks-backup.json
+
+# Cache
+.cache/
+.eslintcache
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+/coverage
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
